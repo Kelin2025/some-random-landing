@@ -8,3 +8,12 @@ body,
   height: 100%;
   overflow: auto;
 }
+
+@font-face {
+  font-family: VelaSans;
+  src: url(./assets/fonts/VelaSans-GX.ttf);
+}
+
+html {
+  font: 16px VelaSans, sans-serif;
+}
