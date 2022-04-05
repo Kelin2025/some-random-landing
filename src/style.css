@@ -11,7 +11,26 @@ body,
 
 @font-face {
   font-family: VelaSans;
-  src: url(./assets/fonts/VelaSans-GX.ttf);
+  src: url(./assets/fonts/VelaSans-Regular.woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: VelaSans;
+  src: url(./assets/fonts/VelaSans-Medium.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: VelaSans;
+  src: url(./assets/fonts/VelaSans-SemiBold.woff2);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: VelaSans;
+  src: url(./assets/fonts/VelaSans-Bold.woff2);
+  font-weight: 700;
 }
 
 html {
